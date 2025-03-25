@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUnitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đơn vị"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã đơn vị"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitFax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fax (nếu có)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loại đơn vị (Khoa, Phòng, Ban, Trung tâm...)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etParentUnitId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID đơn vị cha (nếu có)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etSubUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Danh sách ID đơn vị con (cách nhau bởi dấu phẩy)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etUnitPhotoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL ảnh (nếu có)"
+        android:inputType="textUri"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

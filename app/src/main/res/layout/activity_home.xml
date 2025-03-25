@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Hình ảnh nền (trường học) -->
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tlu"
+        android:alpha="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Nội dung chính -->
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Ảnh đại diện người dùng -->
+
+        <!-- Chào người dùng -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Chào Admin"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+        <!-- Nút Danh bạ CBGV -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/holo_green_dark">
+
+            <Button
+                android:id="@+id/btnStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Danh bạ CBGV"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_staff"
+                android:drawablePadding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Nút Danh bạ Sinh viên -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <Button
+                android:id="@+id/btnStudents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Danh bạ Sinh viên"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_students"
+                android:drawablePadding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Nút Danh bạ Đơn vị -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/holo_orange_dark">
+
+            <Button
+                android:id="@+id/btnUnits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Danh bạ Đơn vị"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_units"
+                android:drawablePadding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Nút Đăng xuất -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/holo_red_dark">
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Đăng xuất"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_logout"
+                android:drawablePadding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

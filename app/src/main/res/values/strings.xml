@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TLUContactApp</string>
+    <string name="error_no_staff_info">Không tìm thấy thông tin giảng viên!</string>
+    <string name="no_staff_id">Không có mã giảng viên</string>
+    <string name="no_name">Không có tên</string>
+    <string name="no_phone">Không có số điện thoại</string>
+    <string name="no_email">Không có email</string>
+    <string name="no_address">Không có địa chỉ</string>
+    <string name="no_staff_type">Không có loại giảng viên</string>
+    <string name="no_phone_to_call">Không có số điện thoại để gọi!</string>
+    <string name="no_email_to_send">Không có email để gửi!</string>
+    <string name="no_email_app">Không tìm thấy ứng dụng email!</string>
+    <string name="email_subject">Liên hệ từ TLUContact</string>
+    <string name="no_unit">Không thuộc đơn vị nào</string>
+    <string name="error_loading_unit">Lỗi khi tải đơn vị</string>
+    <string name="error_with_message">Lỗi: %1$s</string>
+    <string name="edit_staff_title">Sửa thông tin giảng viên</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="update_success">Cập nhật thành công!</string>
+    <string name="delete_staff_title">Xóa giảng viên</string>
+    <string name="delete_staff_message">Bạn có chắc muốn xóa giảng viên này?</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_success">Xóa thành công!</string>
+</resources>
